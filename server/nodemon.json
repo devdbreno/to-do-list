@@ -1,0 +1,8 @@
+{
+  "delay": 1,
+  "watch": ["src"],
+  "ignore": ["node_modules"],
+  "execMap": {
+    "ts": "ts-node -r tsconfig-paths/register --transpile-only"
+  }
+}
